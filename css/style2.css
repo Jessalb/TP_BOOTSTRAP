@@ -1,0 +1,15 @@
+
+.navbar-brand img{max-width: 100px;}
+#Cate{padding-top: 3%; padding-left: 20%; padding-right: 20%;}
+#Estudiante{text-align: center;}
+#Est{border-color: blue;}
+#Trainee{text-align: center;}
+#Trai{border-color: cornflowerblue;}
+#Jun{border-color: darkorange;}
+#Junior{text-align: center;}
+#Text1{text-align: center; padding-top: 3%;}
+#Text2{font-size: 240%;}
+#Formulario{padding-left: 20%; padding-right: 20%; padding-top: 2%;}
+#botones{padding-left: 20%; padding-right: 20%; padding-bottom: 2%; text-align: center;}
+#totalPago{text-align: left; padding-left: 20%; padding-right: 20%;}
+button{width: 100%}

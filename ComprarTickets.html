@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style2.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+                <div class="container">
+                  <a class="navbar-brand">
+                    <img src="image/codoacodo.png" alt="">
+                    Conf Bs As
+                </a>
+                 
+                  <div class="justify-content-end">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Los oradores</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">El lugar y la fecha</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Conviértete en orador</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" id="boton_verde">Comprar Tickets</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        
+        <main>
+        <div id="Cate">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100" id="Est">
+                <div class="card-body" id="Estudiante">
+                  <h5 class="card-title">Estudiante</h5>
+                  <p class="card-text">Tienen un descuento</p>
+                  <b>80%</b>
+                  <p>*Presentar documentación</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100" id="Trai">
+                <div class="card-body" id="Trainee">
+                  <h5 class="card-title">Trainee</h5>
+                  <p class="card-text">Tienen un descuento</p>
+                  <b>50%</b>
+                  <p>*Presentar documentación</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100" id="Jun">
+                <div class="card-body" id="Junior">
+                  <h5 class="card-title">Junior</h5>
+                  <p class="card-text">Tienen un descuento</p>
+                  <b>15%</b>
+                  <p>*Presentar documentación</p>
+                </div>
+              </div>
+            </div>
+              </div>
+            </div>
+
+            <div id="Text1">
+            <p>VENTA</p>
+            <b id="Text2">VALOR DE TICKET $200</b>
+            </div>
+
+            <div id="Formulario">
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="Nombre" placeholder="Nombre">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="Apellido" placeholder="Apellido">
+                </div>
+                <div class="col-12">
+                  <input type="mail" class="form-control" id="Correo" placeholder="Correo">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Cantidad</label>
+                  <input type="text" class="form-control" id="Cantidad">
+                </div>
+                <div class="col-md-6">
+                  <label for="Categoria" class="form-label">Categoría</label>
+                  <select id="Categoria" class="form-select">
+                    <option selected value="0">...</option>
+                    <option value="1">Estudiante</option>
+                    <option value="2">Trainee</option>
+                    <option value="3">Junior</option>
+                  </select>
+                </div>
+                </div>
+              </form>
+              <br>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <p id="totalPago">Total a Pagar: $  </p>
+              </div>
+            </div>
+
+            <div id="botones" class="row">
+              <div class="col-md-6">
+                <button type="button" class="btn btn-success" id="botonborrar">Borrar</button>
+              </div>
+              <div class="col-md-6">
+                <button type="button" class="btn btn-success" id="botonresumen">Resumen</button>
+              </div>
+            </div>
+        </main>
+      <script src="JavaScript/Tickets.js"></script>
+    </body>
+
+    <footer>
+      <div class="row">
+      <ul class="nav justify-content-evenly" style="background-color: rgba(28, 28, 53, 0.76);">
+        <li class="nav-item">
+          <a class="nav-link" style="color: white;">Preguntas frecuentes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: white">Contáctanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: white">Prensa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: white">Conferencias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: white">Términos y condiciones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: white" >Privacidad</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: white">Estudiantes</a>
+        </li>
+      </div>
+      </ul>
+    </footer>
+
+</html>
